@@ -38,6 +38,8 @@ public class FileUpload extends HttpServlet {
                         .length,
                 "C:\\Users\\Administrator\\Desktop\\" + filename
         );
+        response.setContentType("text/html;charset=utf-8");
+        response.getWriter().println("写出成功，请到相应路径查看");
     }
 
     private byte[] bodyContent(HttpServletRequest request) throws IOException {
