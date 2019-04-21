@@ -7,7 +7,7 @@ Servlet技术出现不久时，文件上传仍然是比较有挑战性的。
 #### 实现步骤
 1. Servlet添加@MultipartConfig注解
 2. 使用Part获取文件及文件名   
-Part是一个表单元素，submit按钮也是一个part
+   - Part是一个表单元素，submit按钮也是一个part
 ---
 #### 测试
 1. 启动项目，并访问 http://127.0.0.1/upload.jsp
